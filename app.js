@@ -13,4 +13,8 @@ app.get('/contact', (req, res) => {
   res.send('COntact');
 });
 
+app.get('/demo', (req, res) => {
+  res.send('demo');
+});
+
 module.exports = app;
